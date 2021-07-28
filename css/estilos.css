@@ -29,6 +29,7 @@ body {
   width: 100%;
   padding: 0 8px;
   display: flex;
+  height:450px;
   justify-content: space-evenly;
 }
 .card__container:nth-of-type(1) {
@@ -44,11 +45,12 @@ body {
   width: 50%;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
+  height:480px;
 }
 .card__img {
   width: 100%;
   display: block;
-  height: 403px;
+  height:450px;
   object-fit: cover;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -57,7 +59,7 @@ body {
   top: 0;
   position: absolute;
   background-color: #aa5cdb9c;
-  height: 403px;
+  height:450px;
   width: 100%;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
@@ -85,7 +87,7 @@ body {
 .container__data {
   display: flex;
   gap: 50px;
-  margin: 40px 0 0;
+  margin: 80px 0 0;
   padding: 10px 0 0;
   text-align: center;
   flex-wrap: wrap;
@@ -180,6 +182,7 @@ body {
   .container__data {
     justify-content: center;
     flex-direction: column;
+     margin: 20px 0 0;
   }
   .subcontainer__data {
     padding: 8px;
